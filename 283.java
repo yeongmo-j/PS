@@ -10,6 +10,7 @@
 이렇게되면, 지나가는 모든 부분은 0으로 변하고,
 0이 아니면 앞에서부터 채워지게 된다.
 
+
 Time complexity : O(N);
 Space complexity : O(1);
 
