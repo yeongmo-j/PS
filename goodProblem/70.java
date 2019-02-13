@@ -13,6 +13,7 @@ Space Complecity = O(N);
 왜 space가 mb단위로 먹는지?
 '''
 
+
 class Solution {
     int[] cache;
     int last;
