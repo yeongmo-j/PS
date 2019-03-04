@@ -1,3 +1,2 @@
-# Leetcode
-
-This is my answer to LeetCode problems, which is wrote in Korean.
+# PS
+This is my problem solving records.
