@@ -14,6 +14,7 @@
 count를 1 추가시킨다. 이렇게되면, 원하는 값들만 앞에서부터 채워진다.
 count는 현재 원소의 인덱스 초과가 될 수 없으므로, 괜찮다.
 
+
 Time complexity : O(N)
 Space complexity : O(1);
 

@@ -10,7 +10,6 @@ input의 최대자리를 구한 뒤에,1부터 시작하는 최소자리수의 �
 최대자리가 최소자리보다 작아지면, 종료한다.
 중간에 한번이라도 다르면 false
 
-
 Time complexity : O(N) N은 자리수.
 Space complexity : O(1);
 
