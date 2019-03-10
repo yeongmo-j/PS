@@ -16,6 +16,8 @@ Time complexity : O(N)
 Space complexity : O(N);
 
 [추가]
+@@@@@앞에서부터 해도 됨
+앞에서 구한거에 B 곱하고 지금꺼 더하면 
 "
 import java.util.Scanner;
 
