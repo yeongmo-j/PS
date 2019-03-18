@@ -16,6 +16,7 @@ d[i][j] = sigma(d[i-1][d[j-k]])가 된다.(위에서부터 하나씩 고름)
 d[0][i] = 0
 d[1][i] = i가 된다.
 
+
 Time complexity : O(N*M^2)
 Space complexity : O(N*M)
 
