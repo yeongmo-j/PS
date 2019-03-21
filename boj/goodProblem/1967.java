@@ -18,7 +18,7 @@ Space complexity : O(N)
 
 [추가]
 @@@@@@@
-
+1167번과 비슷
 "
 public boolean isValid(String s) {
 	Stack<Character> stack = new Stack<Character>();
