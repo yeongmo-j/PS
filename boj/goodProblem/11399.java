@@ -23,7 +23,8 @@ n*p1 .... + (n-i+1)pj + (n-j+1)pi +....가 더 커야 한다
 이를 연산해주면
 (i-j)(pj-pi)<=0이 되는데,
 이는 참이 된다.(i<j, pi<=pj가정에 의해)
-이렇게 증명을 해주자 
+이렇게 증명을 해주자
+@@@증명과정@@@@@
 "
 import java.util.Scanner;
 import java.util.Arrays;
