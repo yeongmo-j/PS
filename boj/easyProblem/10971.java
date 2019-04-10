@@ -27,6 +27,7 @@ Space complexity : O(n)
 즉
 (n-1)! * n!번만 해도 되는것!
 (n분의1로 줄어듬)
+-> run(1)로 해도 됨
 "
 import java.io.IOException;
 import java.util.Scanner;
