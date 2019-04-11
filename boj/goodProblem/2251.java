@@ -30,6 +30,16 @@ Space complexity : O(A*B*C)
 
 [추가]
 
+a,b,c의 물을 크기3짜리 배열에 저장해놓고
+인덱스를 0, 1, 2로 해놓은다음에
+이걸로 옮기는걸 루프 돌리기가 가능하다...
+
+그래서 저 6번 반복문을 한번의 루프로 바꿔줄 것
+
+그리고 또 3차원 배열을 만들 필요가 없다.
+왜냐면 a, b가 정해지면 자동으로 c도 정해지기 때문에!!
+2차원 배열만 만들어줘도 ㅇㅋ임
+
 "
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -20,6 +20,49 @@ Space complexity : O(n)
 
 [추가]
 nCm구하는법!!!!!!!!!
+
+그리고 재귀함수로 구하는 법도 있음
+run(String str, int f, int n)
+의미는 지금까지 f개 골랐고, arr[n]을 살펴보고 있는 중임.
+성공조건 : f==6
+종료조건 : n>=k
+나머지는 고르던가, 안고르던가 해주면 됨!!!!
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main{
+	static int k;
+	static int[] s;
+
+	static void run(String str, int f, int n) {
+		//지금까지 f개 골랐고, s[n]번째 인덱스 살펴보는중 str은 지금까지 고른걸 스트링으로
+		if (f==6) {
+			System.out.println(str);
+			return;
+		} else if (n>=k)
+			return;
+		run(str+s[n]+" ", f+1, n+1);
+		run(str, f, n+1);
+	}
+
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		while (true) {
+			String[] input = br.readLine().split(" ");
+			k = Integer.parseInt(input[0]);
+			if (k==0)
+				break;
+			s = new int[k];
+			int i;
+			for (i=0; i<k ; i++)
+				s[i] = Integer.parseInt(input[i+1]);
+			run("", 0, 0);
+			System.out.println();
+		}
+	}
+}
+
 "
 import java.io.BufferedReader;
 import java.io.IOException;
